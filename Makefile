@@ -32,7 +32,8 @@ $(HEADER): $(GOSOURCES)
 
 .PHONY: localinstall
 localinstall: build
-	cp $(TARGET) ~/.purple/plugins
+	mkdir -p ~/.purple/plugins/
+	cp $(TARGET) ~/.purple/plugins/
 
 .PHONY: clean
 clean:
