@@ -31,7 +31,7 @@ Make sure you've got the `libpurple-dev` package installed (or at least have
 the headers in a place that `pkg-config` can find), then:
 
 ```bash
-go get github.com/samuelkarp/purple-docker
+go get github.com/samuelkarp/purple-docker/...
 cd $GOPATH/src/github.com/samuelkarp/purple-docker
 make localinstall
 ```
