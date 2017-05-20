@@ -1,0 +1,79 @@
+memo = "e5ebd31bd5e37a8b8e8f96d439949e1ebab064a5867da77317275a3fa386d25b"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/Azure/go-ansiterm"
+  packages = [".","winterm"]
+  revision = "fa152c58bc15761d0200cb75fe958b89a9d4888e"
+
+[[projects]]
+  name = "github.com/Microsoft/go-winio"
+  packages = ["."]
+  revision = "706941bedd2d9b3a8c88e4022bd0078101f233f2"
+  version = "v0.4.1"
+
+[[projects]]
+  name = "github.com/Sirupsen/logrus"
+  packages = ["."]
+  revision = "ba1b36c82c5e05c4f912a88eab0dcd91a171688f"
+  version = "v0.11.5"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/cihub/seelog"
+  packages = [".","archive","archive/gzip","archive/tar","archive/zip"]
+  revision = "f561c5e57575bb1e0a2167028b7339b3a8d16fb4"
+
+[[projects]]
+  name = "github.com/docker/docker"
+  packages = ["api/types","api/types/blkiodev","api/types/container","api/types/filters","api/types/mount","api/types/network","api/types/registry","api/types/strslice","api/types/swarm","api/types/versions","opts","pkg/archive","pkg/fileutils","pkg/homedir","pkg/idtools","pkg/ioutils","pkg/jsonlog","pkg/jsonmessage","pkg/longpath","pkg/pools","pkg/promise","pkg/stdcopy","pkg/system","pkg/term","pkg/term/windows"]
+  revision = "c6d412e329c85f32a4b2269b49aaa0794affcf88"
+  version = "v17.03.1-ce"
+
+[[projects]]
+  name = "github.com/docker/go-connections"
+  packages = ["nat"]
+  revision = "990a1a1a70b0da4c4cb70e117971a4f0babfbf1a"
+  version = "v0.2.1"
+
+[[projects]]
+  name = "github.com/docker/go-units"
+  packages = ["."]
+  revision = "f2d77a61e3c169b43402a0a1e84f06daf29b8190"
+  version = "v0.3.1"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/fsouza/go-dockerclient"
+  packages = ["."]
+  revision = "d138f4440a816ee803e36a8924677d7f5867f16b"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/go-cleanhttp"
+  packages = ["."]
+  revision = "3573b8b52aa7b37b9358d966a898feb387f62437"
+
+[[projects]]
+  name = "github.com/opencontainers/runc"
+  packages = ["libcontainer/system","libcontainer/user"]
+  revision = "75f8da7c889acc4509a0cf6f0d3a8f9584778375"
+  version = "v1.0.0-rc3"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "c605e284fe17294bda444b34710735b29d1a9d90"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["context","context/ctxhttp"]
+  revision = "513929065c19401a1c7b76ecd942f9f86a0c061b"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix","windows"]
+  revision = "a2e06a18b0d52d8cb2010e04b372a1965d8e3439"
